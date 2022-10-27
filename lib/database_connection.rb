@@ -14,8 +14,8 @@ class DatabaseConnection
    # @connection = PG.connect({ host: '127.0.0.1', dbname: music_library_test })
   #end
 
-  def self.connect(music_library)
-    @connection = PG.connect({ host: '127.0.0.1', dbname: music_library })
+  def self.connect(database_name)
+    @connection = PG.connect({ host: '127.0.0.1', dbname: database_name })
   end
 
   # This method executes an SQL query 

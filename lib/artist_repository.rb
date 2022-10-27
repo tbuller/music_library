@@ -1,3 +1,5 @@
+
+require 'artist'
 # EXAMPLE
 # Table name: students
 
